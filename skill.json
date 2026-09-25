@@ -1,7 +1,7 @@
 {
   "name": "adsap-ads",
-  "version": "2.17",
-  "updated": "2026-09-19",
+  "version": "2.18",
+  "updated": "2026-09-25",
   "format": "Agent Skills (agentskills.io)",
   "files": {
     "adsap-ads.zip": {
@@ -10,20 +10,20 @@
         "chatgpt"
       ],
       "layout": "adsap-ads/SKILL.md",
-      "sha256": "e516fb76ccda0456b20c7bad20c2e6385b669c0593ad57b73cda37c28378f703",
-      "bytes": 20206
+      "sha256": "dcbc4c3ee4367efac67b176c30f53fb373e960f48735e018b5fc4f942b555592",
+      "bytes": 21274
     },
     "adsap-ads-perplexity.zip": {
       "assistants": [
         "perplexity"
       ],
       "layout": "SKILL.md",
-      "sha256": "ffb9413b489b1658d1bc5e62918444891d5fb73d9a9b1b6acb3fc3d50cf3cdf2",
-      "bytes": 20186
+      "sha256": "5ccfc21e891e6b8d6cf39f2562499bf99133448baca307f9ea3d9a5edfa991a2",
+      "bytes": 21254
     },
     "SKILL.md": {
-      "sha256": "9c3d0179b2a23a5f5d7875a035f2d0bafa201755a432b3e2191e3ce70a7dba1d",
-      "bytes": 52403
+      "sha256": "865c6a4854f96f64e992ed7cf607021fbcd183c3c7ea89715007fb81e2b4fbe8",
+      "bytes": 55370
     }
   }
 }
