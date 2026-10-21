@@ -2,11 +2,11 @@
 
 The Adsap skill teaches an AI assistant how to run Meta and Google Ads through the [Adsap](https://adsap.ai) connector: which tool fits each job, in what order, and the safety rules that always apply. It follows the open [Agent Skills](https://agentskills.io) format.
 
-One Markdown file, `SKILL.md`, zipped for upload. It contains no code, no keys and no credentials. Access to your ad accounts comes from the Adsap connector, which you add separately.
+A `SKILL.md` hub plus ten reference files in `references/`, one per job (performance, launch, optimize, audiences, tracking, catalog, research, Google Ads, troubleshooting, cards), zipped for upload. The assistant reads the hub first and opens only the reference file the job needs. The files contain no code, no keys and no credentials. Access to your ad accounts comes from the Adsap connector, which you add separately.
 
 | | |
 |---|---|
-| Version | 2.25, updated 20 October 2026 |
+| Version | 3.0, updated 20 October 2026 |
 | Connector address | `https://mcp.adsap.ai/mcp` |
 | Setup guide | [adsap.ai/docs/guides/ai-copilot/setup](https://adsap.ai/docs/guides/ai-copilot/setup) |
 | Skill page | [adsap.ai/skills/adsap-ads](https://adsap.ai/skills/adsap-ads) |
@@ -15,12 +15,12 @@ One Markdown file, `SKILL.md`, zipped for upload. It contains no code, no keys a
 
 | File | For | Layout |
 |---|---|---|
-| `adsap-ads.zip` | Claude and ChatGPT | `adsap-ads/SKILL.md` |
-| `adsap-ads-perplexity.zip` | Perplexity | `SKILL.md` at the root of the zip |
-| `SKILL.md` | reading | the same file, unzipped |
+| `adsap-ads.zip` | Claude and ChatGPT | `adsap-ads/SKILL.md` and `adsap-ads/references/` |
+| `adsap-ads-perplexity.zip` | Perplexity | one `SKILL.md` at the root of the zip, the references appended as sections |
+| `SKILL.md` and `references/` | reading | the same files, unzipped |
 | `skill.json` | checking | version, date, size and SHA-256 of each file |
 
-Two zips exist because Perplexity Computer expects `SKILL.md` at the root of the zip and rejects the folder layout that Claude and ChatGPT use. The skill inside is the same.
+Two zips exist because Perplexity Computer expects a single `SKILL.md` at the root of the zip and rejects the folder layout that Claude and ChatGPT use. The text inside is the same.
 
 ## Install
 
