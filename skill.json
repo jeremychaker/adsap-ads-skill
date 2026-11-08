@@ -1,7 +1,7 @@
 {
   "name": "adsap-ads",
-  "version": "3.0",
-  "updated": "2026-10-20",
+  "version": "3.1",
+  "updated": "2026-11-09",
   "format": "Agent Skills (agentskills.io)",
   "files": {
     "adsap-ads.zip": {
@@ -10,12 +10,12 @@
         "chatgpt"
       ],
       "layout": "adsap-ads/SKILL.md + adsap-ads/references/ (10 files)",
-      "sha256": "7e5fb29b78b0254d5169820abbfe45deb39bac8dddea5442df90b818cee684be",
-      "bytes": 28707,
+      "sha256": "44a44ec714096e02cfb8556a8b28797d12176f0a5ab409abb9869904d66d0c26",
+      "bytes": 28797,
       "entries": [
         {
           "path": "adsap-ads/SKILL.md",
-          "sha256": "f26133667b42fd86fbfd399fdba28ac5087c5cf552fc0640294f9f8f41d501ed",
+          "sha256": "74864f3edd040a60cdfca9816943980db0f82e49738dd2f0ee1dac00b7ee02fc",
           "bytes": 10590
         },
         {
@@ -25,8 +25,8 @@
         },
         {
           "path": "adsap-ads/references/launch.md",
-          "sha256": "d5b925b7e199f4a6274214e81ab8f9813602e70f9bc3070c896ebc6ecdefadfe",
-          "bytes": 10168
+          "sha256": "dd8928018cb7c8191869a58a719beac4f8afb5e2fdf3b6f66a89b88e5ed56781",
+          "bytes": 10420
         },
         {
           "path": "adsap-ads/references/optimize.md",
@@ -75,18 +75,18 @@
         "perplexity"
       ],
       "layout": "SKILL.md (one file: the same text, references appended as sections)",
-      "sha256": "a4477b63e36ab864dbf7b0a9e156e1ba705d75ef551c63ef6398855323e8e038",
-      "bytes": 23390,
+      "sha256": "c8a2b8b79a486b06ead329705ac6fd759753d1448bd6b10ddf1084b40d8c7e42",
+      "bytes": 23478,
       "entries": [
         {
           "path": "SKILL.md",
-          "sha256": "0cd09181580ff710521828b5ce2a7a715ebc4946606fc107fb544195a9ac4113",
-          "bytes": 64318
+          "sha256": "63656302359ad84814456a5fb5e116dd686b4bcab274795b950d7dca3198e7cc",
+          "bytes": 64570
         }
       ]
     },
     "SKILL.md": {
-      "sha256": "f26133667b42fd86fbfd399fdba28ac5087c5cf552fc0640294f9f8f41d501ed",
+      "sha256": "74864f3edd040a60cdfca9816943980db0f82e49738dd2f0ee1dac00b7ee02fc",
       "bytes": 10590
     },
     "references/performance.md": {
@@ -96,8 +96,8 @@
     },
     "references/launch.md": {
       "title": "Launch something new on Meta",
-      "sha256": "d5b925b7e199f4a6274214e81ab8f9813602e70f9bc3070c896ebc6ecdefadfe",
-      "bytes": 10168
+      "sha256": "dd8928018cb7c8191869a58a719beac4f8afb5e2fdf3b6f66a89b88e5ed56781",
+      "bytes": 10420
     },
     "references/optimize.md": {
       "title": "Optimize and fix what is running",
