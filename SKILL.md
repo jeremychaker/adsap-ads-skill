@@ -50,4 +50,4 @@ app.adsap.ai is better for bulk ad creation via Ad Sheets (dozens of ads at once
 
 ---
 
-Skill version: 3.1. Targets the Adsap connector's 99-tool surface and runs on Claude, ChatGPT and Perplexity Computer. If `adsap_*` tools return unknown-tool errors, this skill copy is out of date. The user should download the latest version from https://app.adsap.ai/ai-copilot. Anyone who installed the older `adsap-meta-ads` skill must remove it, since the two would run side by side.
+Skill version: 3.2. Targets the Adsap connector's 99-tool surface and runs on Claude, ChatGPT and Perplexity Computer. If `adsap_*` tools return unknown-tool errors, this skill copy is out of date. The user should download the latest version from https://app.adsap.ai/ai-copilot. Anyone who installed the older `adsap-meta-ads` skill must remove it, since the two would run side by side.
