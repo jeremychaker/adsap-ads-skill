@@ -6,7 +6,7 @@ A `SKILL.md` hub plus ten reference files in `references/`, one per job (perform
 
 | | |
 |---|---|
-| Version | 3.2, updated 9 November 2026 |
+| Version | 3.3, updated 10 November 2026 |
 | Connector address | `https://mcp.adsap.ai/mcp` |
 | Setup guide | [adsap.ai/docs/guides/ai-copilot/setup](https://adsap.ai/docs/guides/ai-copilot/setup) |
 | Skill page | [adsap.ai/skills/adsap-ads](https://adsap.ai/skills/adsap-ads) |
