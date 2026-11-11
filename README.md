@@ -15,12 +15,13 @@ A `SKILL.md` hub plus ten reference files in `references/`, one per job (perform
 
 | File | For | Layout |
 |---|---|---|
-| `adsap-ads.zip` | Claude and ChatGPT | `adsap-ads/SKILL.md` and `adsap-ads/references/` |
+| `adsap-ads.zip` | Claude | `adsap-ads/SKILL.md` and `adsap-ads/references/` |
+| `adsap-ads-chatgpt.zip` | ChatGPT | `plugin.json` plus `skills/adsap-ads/SKILL.md` and `skills/adsap-ads/references/` |
 | `adsap-ads-perplexity.zip` | Perplexity | one `SKILL.md` at the root of the zip, the references appended as sections |
 | `SKILL.md` and `references/` | reading | the same files, unzipped |
 | `skill.json` | checking | version, date, size and SHA-256 of each file |
 
-Two zips exist because Perplexity Computer expects a single `SKILL.md` at the root of the zip and rejects the folder layout that Claude and ChatGPT use. The text inside is the same.
+Three zips exist because each assistant expects its own layout: Claude takes the skill folder, ChatGPT takes it packed as a plugin, and Perplexity Computer takes a single `SKILL.md` at the root of the zip. The text inside is the same.
 
 ## Install
 
@@ -29,7 +30,7 @@ Connect the Adsap connector first, then install the skill. The full setup is in 
 | Assistant | Plans with skills | File | How to install |
 |---|---|---|---|
 | Claude | All plans, including Free | `adsap-ads.zip` | Customize, then Skills, then upload. Enable code execution under Settings, Capabilities first. |
-| ChatGPT | Business, Enterprise and Edu | `adsap-ads.zip` | chatgpt.com, then Plugins, Skills, Create, Upload from your computer. ChatGPT scans uploaded skills before enabling them. |
+| ChatGPT | Business, Enterprise and Edu | `adsap-ads-chatgpt.zip` | A workspace owner or admin opens Admin console, then Plugins, Add, Upload plugin. Members can upload too when the admin allows plugin uploads. To install a newer version later, open the plugin and choose Upload new version. |
 | Perplexity | Pro, Max and Enterprise, inside Perplexity Computer | `adsap-ads-perplexity.zip` | Computer, then Skills, Create skill, Upload a skill. |
 
 If you already have a skill named `adsap-meta-ads`, remove it first: the outdated predecessor of this skill.

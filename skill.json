@@ -6,8 +6,7 @@
   "files": {
     "adsap-ads.zip": {
       "assistants": [
-        "claude",
-        "chatgpt"
+        "claude"
       ],
       "layout": "adsap-ads/SKILL.md + adsap-ads/references/ (10 files)",
       "sha256": "ec5cc06510595b99d8fab6955e46aef0f2029e0bb15261ed29d274aacd38f778",
@@ -65,6 +64,76 @@
         },
         {
           "path": "adsap-ads/references/cards.md",
+          "sha256": "1096b2ea500a68106fc19f0858e0a336943d0ba3706bb5150aab9770c580ddbe",
+          "bytes": 4132
+        }
+      ]
+    },
+    "adsap-ads-chatgpt.zip": {
+      "assistants": [
+        "chatgpt"
+      ],
+      "layout": "plugin.json + skills/adsap-ads/SKILL.md + skills/adsap-ads/references/ (10 files)",
+      "sha256": "dbe2dbf281df586a0df8de662a5ba8ea8fd8f21bfd48f339a0c8c75e4bfc8a70",
+      "bytes": 29718,
+      "entries": [
+        {
+          "path": "plugin.json",
+          "sha256": "a1deb4cc3c8fd19b1db7a2bf3fe668dffeb3d4c1bd608eae21355ec9a3eb038a",
+          "bytes": 1022
+        },
+        {
+          "path": "skills/adsap-ads/SKILL.md",
+          "sha256": "3b0df0fe7ea06ab89bc1e10000528defc4d7d8cb986d6e1e0787b6ded2dc1e24",
+          "bytes": 10590
+        },
+        {
+          "path": "skills/adsap-ads/references/performance.md",
+          "sha256": "4cf07274597b2d0aa25c271e894030244101c229454b56531fd325150217eaaf",
+          "bytes": 6357
+        },
+        {
+          "path": "skills/adsap-ads/references/launch.md",
+          "sha256": "62b50a2d663023cb3c7d92fb44526d341d5df3dc36af16582216c789eae3ec39",
+          "bytes": 10844
+        },
+        {
+          "path": "skills/adsap-ads/references/optimize.md",
+          "sha256": "f33279f690836ce23b2c6a2a4f48210151b5885a8a9890cfd2287d35f0a3eb6a",
+          "bytes": 1735
+        },
+        {
+          "path": "skills/adsap-ads/references/audiences.md",
+          "sha256": "bdec947b65c7c5f1e8b6654ff0b408cbf36117e28219677922af8024565d1240",
+          "bytes": 1772
+        },
+        {
+          "path": "skills/adsap-ads/references/tracking.md",
+          "sha256": "8ced42fa9813b5c2aa43ff8d3026adcbed20163c8a27bb5dbf070e38163b86b2",
+          "bytes": 639
+        },
+        {
+          "path": "skills/adsap-ads/references/catalog.md",
+          "sha256": "2cf7dd7278fe73dd6bf7a1b09c1727bd45275725fe52ee248c8100a7446e04b6",
+          "bytes": 797
+        },
+        {
+          "path": "skills/adsap-ads/references/research.md",
+          "sha256": "61851f052c36d0f8e862f3506d93b3a0e16818ecf188a5e1c63fdf3b8d336cff",
+          "bytes": 3022
+        },
+        {
+          "path": "skills/adsap-ads/references/google-ads.md",
+          "sha256": "2f1489ea17fad631b60dd537bfba53870ca784e9579e9d7a93b240f318b60f1e",
+          "bytes": 21642
+        },
+        {
+          "path": "skills/adsap-ads/references/troubleshooting.md",
+          "sha256": "518c603dba37dfb45957fca4d758111cc0d3a30452a53dca671cc9563b31d492",
+          "bytes": 2712
+        },
+        {
+          "path": "skills/adsap-ads/references/cards.md",
           "sha256": "1096b2ea500a68106fc19f0858e0a336943d0ba3706bb5150aab9770c580ddbe",
           "bytes": 4132
         }
