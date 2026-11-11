@@ -30,7 +30,7 @@ Connect the Adsap connector first, then install the skill. The full setup is in 
 | Assistant | Plans with skills | File | How to install |
 |---|---|---|---|
 | Claude | All plans, including Free | `adsap-ads.zip` | Customize, then Skills, then upload. Enable code execution under Settings, Capabilities first. |
-| ChatGPT | Business, Enterprise and Edu | `adsap-ads-chatgpt.zip` | Customize, then Plugins, Add, Upload plugin archive. In a Business or Enterprise workspace, the admin must allow plugin uploads. |
+| ChatGPT | Business, Enterprise, Healthcare and Edu plans only | `adsap-ads-chatgpt.zip` | Customize, then Plugins, Add, Upload plugin archive. In a Business or Enterprise workspace, the admin must allow plugin uploads. |
 | Perplexity | Pro, Max and Enterprise, inside Perplexity Computer | `adsap-ads-perplexity.zip` | Computer, then Skills, Create skill, Upload a skill. |
 
 If you already have a skill named `adsap-meta-ads`, remove it first: the outdated predecessor of this skill.
