@@ -1,7 +1,7 @@
 {
   "name": "adsap-ads",
-  "version": "3.3",
-  "updated": "2026-11-10",
+  "version": "3.4",
+  "updated": "2026-11-15",
   "format": "Agent Skills (agentskills.io)",
   "files": {
     "adsap-ads.zip": {
@@ -9,18 +9,18 @@
         "claude"
       ],
       "layout": "adsap-ads/SKILL.md + adsap-ads/references/ (10 files)",
-      "sha256": "ec5cc06510595b99d8fab6955e46aef0f2029e0bb15261ed29d274aacd38f778",
-      "bytes": 28988,
+      "sha256": "4bf928d503f3d3708849074c76e71b4bc914d307fb9b6693edd872c394be4711",
+      "bytes": 29482,
       "entries": [
         {
           "path": "adsap-ads/SKILL.md",
-          "sha256": "3b0df0fe7ea06ab89bc1e10000528defc4d7d8cb986d6e1e0787b6ded2dc1e24",
-          "bytes": 10590
+          "sha256": "fc60058215f4f6759c94fa376503a52ab762cabb68ad6d6caab5446b3c279d87",
+          "bytes": 10664
         },
         {
           "path": "adsap-ads/references/performance.md",
-          "sha256": "4cf07274597b2d0aa25c271e894030244101c229454b56531fd325150217eaaf",
-          "bytes": 6357
+          "sha256": "e5afb1696cd925abed6835fe51d9c9de267207c2f27c924ac00ac0f7cd23aa6d",
+          "bytes": 6510
         },
         {
           "path": "adsap-ads/references/launch.md",
@@ -29,8 +29,8 @@
         },
         {
           "path": "adsap-ads/references/optimize.md",
-          "sha256": "f33279f690836ce23b2c6a2a4f48210151b5885a8a9890cfd2287d35f0a3eb6a",
-          "bytes": 1735
+          "sha256": "80a9aae2f8d274e724d11ffb873a2ebecd410a8c62dc873ef1b746a5533366c6",
+          "bytes": 2619
         },
         {
           "path": "adsap-ads/references/audiences.md",
@@ -74,23 +74,23 @@
         "chatgpt"
       ],
       "layout": "plugin.json + skills/adsap-ads/SKILL.md + skills/adsap-ads/references/ (10 files)",
-      "sha256": "dbe2dbf281df586a0df8de662a5ba8ea8fd8f21bfd48f339a0c8c75e4bfc8a70",
-      "bytes": 29718,
+      "sha256": "cd0c464433608585278a1bee38a155a70c12a18b98b5a027371ba5a5290e6c50",
+      "bytes": 30213,
       "entries": [
         {
           "path": "plugin.json",
-          "sha256": "a1deb4cc3c8fd19b1db7a2bf3fe668dffeb3d4c1bd608eae21355ec9a3eb038a",
+          "sha256": "df6620a986d0d6bd9f9e7a9452e2bb92233b96f5e0a4b1f3a9e2f40e5686cdb4",
           "bytes": 1022
         },
         {
           "path": "skills/adsap-ads/SKILL.md",
-          "sha256": "3b0df0fe7ea06ab89bc1e10000528defc4d7d8cb986d6e1e0787b6ded2dc1e24",
-          "bytes": 10590
+          "sha256": "fc60058215f4f6759c94fa376503a52ab762cabb68ad6d6caab5446b3c279d87",
+          "bytes": 10664
         },
         {
           "path": "skills/adsap-ads/references/performance.md",
-          "sha256": "4cf07274597b2d0aa25c271e894030244101c229454b56531fd325150217eaaf",
-          "bytes": 6357
+          "sha256": "e5afb1696cd925abed6835fe51d9c9de267207c2f27c924ac00ac0f7cd23aa6d",
+          "bytes": 6510
         },
         {
           "path": "skills/adsap-ads/references/launch.md",
@@ -99,8 +99,8 @@
         },
         {
           "path": "skills/adsap-ads/references/optimize.md",
-          "sha256": "f33279f690836ce23b2c6a2a4f48210151b5885a8a9890cfd2287d35f0a3eb6a",
-          "bytes": 1735
+          "sha256": "80a9aae2f8d274e724d11ffb873a2ebecd410a8c62dc873ef1b746a5533366c6",
+          "bytes": 2619
         },
         {
           "path": "skills/adsap-ads/references/audiences.md",
@@ -144,24 +144,24 @@
         "perplexity"
       ],
       "layout": "SKILL.md (one file: the same text, references appended as sections)",
-      "sha256": "045f0d7537192304a8eb501a778ab4522629ad5131dbcadfcbdb6bdaad4a5e5f",
-      "bytes": 23639,
+      "sha256": "ec777ce7a1112427b00243d7cfd43c4ed5e91b66091404663673960bd075a3f1",
+      "bytes": 23974,
       "entries": [
         {
           "path": "SKILL.md",
-          "sha256": "b3724fc2892ec98857433a8291036f5f9183ee9ca208bd43175b3ef198b774b3",
-          "bytes": 65088
+          "sha256": "3dc8fd1eb8aa20bd5cb88fe36d7d570e67138e708f7b9e0a78d149faef29e732",
+          "bytes": 66247
         }
       ]
     },
     "SKILL.md": {
-      "sha256": "3b0df0fe7ea06ab89bc1e10000528defc4d7d8cb986d6e1e0787b6ded2dc1e24",
-      "bytes": 10590
+      "sha256": "fc60058215f4f6759c94fa376503a52ab762cabb68ad6d6caab5446b3c279d87",
+      "bytes": 10664
     },
     "references/performance.md": {
       "title": "Performance check",
-      "sha256": "4cf07274597b2d0aa25c271e894030244101c229454b56531fd325150217eaaf",
-      "bytes": 6357
+      "sha256": "e5afb1696cd925abed6835fe51d9c9de267207c2f27c924ac00ac0f7cd23aa6d",
+      "bytes": 6510
     },
     "references/launch.md": {
       "title": "Launch something new on Meta",
@@ -170,8 +170,8 @@
     },
     "references/optimize.md": {
       "title": "Optimize and fix what is running",
-      "sha256": "f33279f690836ce23b2c6a2a4f48210151b5885a8a9890cfd2287d35f0a3eb6a",
-      "bytes": 1735
+      "sha256": "80a9aae2f8d274e724d11ffb873a2ebecd410a8c62dc873ef1b746a5533366c6",
+      "bytes": 2619
     },
     "references/audiences.md": {
       "title": "Audiences and targeting",

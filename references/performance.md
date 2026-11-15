@@ -25,7 +25,7 @@ Start with `adsap_get_recommendations` when the user asks "what needs my attenti
 
 ## Detail reads
 
-- `adsap_list_ads`: ALL the ads inside an ad set or campaign, live, including ads created today with no delivery yet. Insights views miss those, so this is the only complete ad listing.
+- `adsap_list_ads`: ALL the ads inside an ad set or campaign, live, including ads created today with no delivery yet. Insights views miss those, so this is the only complete ad listing. With `text` it returns only the ads whose primary texts, headlines or descriptions contain a phrase (to change that text, see `references/optimize.md`).
 - `adsap_get_ad`: ONE ad in full: primary texts, headlines, CTA, destination link, URL parameters, image hashes and video ids, Page and Instagram identity. It also carries the underlying post id that holds the ad's likes and comments. The ids feed straight into the reuse inputs of `adsap_create_ad` and into `adsap_duplicate_ad_set`.
 - `adsap_get_ad_set` and `adsap_get_campaign`: one ad set or campaign in full, live (complete targeting spec, placements, attribution, bid strategy, spend limits, schedule, real delivery status, campaign-budget flag and account currency). The cached list tools return null for those fields and their `meta.detail_hint` says so.
 - `adsap_get_ad_status`: delivery state of specific ads.

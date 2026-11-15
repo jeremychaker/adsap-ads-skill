@@ -35,7 +35,7 @@ Pick the row that matches the user's ask and read that file in full before you a
 |---|---|---|
 | Results, reports, what needs attention, which creative wins, what changed | `references/performance.md` | "How are my ads doing?", "Weekly report", "What's my ROAS?", "What should I fix?" |
 | Anything new on Meta: a campaign, ad sets, ads, an Instagram boost, a lead form, an app promotion, a creative upload from Drive or Dropbox | `references/launch.md` | "Create a campaign", "Launch these ads", "Set up retargeting", "Boost my Instagram post" |
-| Change what is running: pause, activate, budgets, names, schedules, duplicate an ad set, swap a creative, rejected ads | `references/optimize.md` | "Pause that campaign", "Raise the budget", "Swap the creative", "Why was my ad rejected?" |
+| Change what is running: pause, activate, budgets, names, schedules, duplicate an ad set, swap a creative, change a text on several ads, rejected ads | `references/optimize.md` | "Pause that campaign", "Raise the budget", "Swap the creative", "Replace 1,900+ with 2,000+ in all my ads", "Why was my ad rejected?" |
 | Custom audiences, interests, behaviors, detailed targeting, locations | `references/audiences.md` | "Who am I targeting?", "Build a retargeting audience", "Find interests for X" |
 | Pixel, events, conversions, tracking checks | `references/tracking.md` | "Is my pixel working?", "Conversions look wrong" |
 | Product catalogs, feeds, catalog ads (only for accounts selling products) | `references/catalog.md` | "Are my products syncing?", "Why do my catalog ads underdeliver?" |
@@ -50,4 +50,4 @@ app.adsap.ai is better for bulk ad creation via Ad Sheets (dozens of ads at once
 
 ---
 
-Skill version: 3.3. Targets the Adsap connector's 99-tool surface and runs on Claude, ChatGPT and Perplexity Computer. If `adsap_*` tools return unknown-tool errors, this skill copy is out of date. The user should download the latest version from https://app.adsap.ai/ai-copilot. Anyone who installed the older `adsap-meta-ads` skill must remove it, since the two would run side by side.
+Skill version: 3.4. Targets the Adsap connector's 99-tool surface and runs on Claude, ChatGPT and Perplexity Computer. If `adsap_*` tools return unknown-tool errors, this skill copy is out of date. The user should download the latest version from https://app.adsap.ai/ai-copilot. Anyone who installed the older `adsap-meta-ads` skill must remove it, since the two would run side by side.
