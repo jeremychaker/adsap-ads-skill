@@ -26,10 +26,10 @@ Start with `adsap_get_recommendations` when the user asks "what needs my attenti
 ## Detail reads
 
 - `adsap_list_ads`: ALL the ads inside an ad set or campaign, live, including ads created today with no delivery yet. Insights views miss those, so this is the only complete ad listing. With `text` it returns only the ads whose primary texts, headlines or descriptions contain a phrase (to change that text, see `references/optimize.md`).
-- `adsap_get_ad`: ONE ad in full: primary texts, headlines, CTA, destination link, URL parameters, image hashes and video ids, Page and Instagram identity. It also carries the underlying post id that holds the ad's likes and comments. The ids feed straight into the reuse inputs of `adsap_create_ad` and into `adsap_duplicate_ad_set`.
+- `adsap_get_ad`: ONE ad in full: primary texts, headlines, CTA, destination link, URL parameters, image hashes and video ids, Page and Instagram identity. It also carries the underlying post id that holds the ad's likes and comments. The ids feed straight into the reuse inputs of `adsap_create_ad` and into `adsap_duplicate_ad_set`. For "what is switched on?": `creative_summary.enhancements_on` is the same list Meta shows, with Meta's names (use them as returned, never invent others), and `creative_summary.shop` says whether Shop is on. `creative_history` lists the ad's earlier versions made through Adsap (edits made in Ads Manager are in `adsap_get_account_activities`); pass one of their ids as `creative_id` to read that version in `older_creative`.
 - `adsap_get_ad_set` and `adsap_get_campaign`: one ad set or campaign in full, live (complete targeting spec, placements, attribution, bid strategy, spend limits, schedule, real delivery status, campaign-budget flag and account currency). The cached list tools return null for those fields and their `meta.detail_hint` says so.
 - `adsap_get_ad_status`: delivery state of specific ads.
-- `adsap_get_account_activities`: "what changed recently?", the audit trail of edits.
+- `adsap_get_account_activities`: "what changed recently?", the audit trail of edits. Each change names the app that made it in `app_name`: `ADSAP` means through Adsap, `Power Editor` means Ads Manager on a computer, null means Meta changed it itself. To answer "who changed this ad?" or "was it changed in Ads Manager?", narrow it with `ad_id` or `ad_set_id` and with `event_type_filter` (`creative_change` for text, image or video swaps) rather than reading the whole account.
 
 ## Metric vocabulary worth reaching for
 
