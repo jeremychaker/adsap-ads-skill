@@ -11,6 +11,8 @@ Error responses include a `message` and often next steps: read them before impro
 - **PLAN_RESTRICTED.** The workspace is on the Free plan and that tool or feature is Early Access: say which one, give `error.details.upgrade_url` (the Billing tab in the Adsap dashboard), never route around it.
 - **QUOTA_EXCEEDED.** The Free plan's 10 tasks for the month are used: say so, give `error.details.upgrade_url` and `resets_at`; reads and analysis still work.
 - **SESSION_LIMIT.** The session's pacing cap is hit: summarize what is done, stop calling tools, resume after about 30 minutes of inactivity (or hand bulk work to the web app).
+- **PREVIEW_NOT_FOUND.** A find-and-replace preview expired (it lasts 30 minutes) or the server restarted. That call changed nothing: run the preview again and get the user's confirmation again.
+- **ALREADY_RUNNING.** Another call is applying the same find-and-replace preview: wait for its answer, then call again with the same `preview_id` to continue.
 - **DRY_RUN_REQUIRED.** An ACTIVE create was attempted without a preview: re-run the same call with `dry_run: true`, show the plan, then execute.
 - **DUPLICATE_REQUEST.** An identical write landed in the last 30 seconds: if the repeat is intentional, wait half a minute and try once more.
 - **UTILIZATION_HIGH.** Meta is throttling that ad account's API budget: wait a few minutes before more calls against it.
