@@ -44,6 +44,8 @@ Each create step follows safety rule 2: `dry_run: true` first, always. On claude
 - **Shop**: Meta can send people to the business's Facebook or Instagram shop instead of the website. Adsap launches every new ad with Shop off unless the template's or the account's Shop switch is on (`image_shop`, `video_shop`, `carousel_shop`, `catalog_shop`). To switch it on for a template, set that key with `adsap_manage_ad_template`.
 - **Promote a mobile app**: `adsap_list_apps` lists the apps the ad account can promote and supplies the `application_id` and `object_store_url` an app-promotion campaign needs. Apps in Development mode appear in the list but Meta refuses to promote them; the app must be Live.
 - **Check a bulk Ad Sheet**: `adsap_list_ad_sheets` (Meta and Google sheets with status and row counts), then `adsap_get_ad_sheet_schema` (one sheet's columns). Read-only here: sheets are built, edited and launched in the web app.
+- **App promotion ad sets**: OS targeting (`user_os`) is derived automatically from the store URL.
+- **App promotion ads**: the promoted app comes from the ad set. The ad needs only `link_url` (the store URL) and the install `call_to_action`.
 
 ## Budgets: units and placement
 
